@@ -6,9 +6,9 @@ export function FooterSection() {
       {/* Left Section: Logo, Description, Social Links */}
       <div className="flex flex-col justify-start items-start gap-8 p-4 md:p-8">
         <div className="flex gap-3 items-stretch justify-center">
-          <div className="text-center text-foreground text-xl font-semibold leading-4">NeuralCode</div>
+          <div className="text-center text-foreground text-xl font-semibold leading-4">РемонтПро</div>
         </div>
-        <p className="text-foreground/90 text-sm font-medium leading-[18px] text-left">Код без усилий</p>
+        <p className="text-foreground/90 text-sm font-medium leading-[18px] text-left">Ремонт без лишних звонков</p>
         <div className="flex justify-start items-start gap-3">
           <a href="#" aria-label="Twitter" className="w-4 h-4 flex items-center justify-center">
             <Twitter className="w-full h-full text-muted-foreground" />
@@ -24,22 +24,22 @@ export function FooterSection() {
       {/* Right Section: Product, Company, Resources */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 p-4 md:p-8 w-full md:w-auto">
         <div className="flex flex-col justify-start items-start gap-3">
-          <h3 className="text-muted-foreground text-sm font-medium leading-5">Продукт</h3>
+          <h3 className="text-muted-foreground text-sm font-medium leading-5">Сервис</h3>
           <div className="flex flex-col justify-end items-start gap-2">
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Возможности
+              Как это работает
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
               Тарифы
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Интеграции
+              Оставить заявку
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Превью в реальном времени
+              Личный кабинет
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Мульти-агенты
+              Мастерам
             </a>
           </div>
         </div>
@@ -56,7 +56,7 @@ export function FooterSection() {
               Вакансии
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Бренд
+              Партнёрам
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
               Контакты
@@ -64,22 +64,19 @@ export function FooterSection() {
           </div>
         </div>
         <div className="flex flex-col justify-start items-start gap-3">
-          <h3 className="text-muted-foreground text-sm font-medium leading-5">Ресурсы</h3>
+          <h3 className="text-muted-foreground text-sm font-medium leading-5">Помощь</h3>
           <div className="flex flex-col justify-center items-start gap-2">
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Условия использования
-            </a>
-            <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              API
-            </a>
-            <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Документация
-            </a>
-            <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
-              Сообщество
+              Частые вопросы
             </a>
             <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
               Поддержка
+            </a>
+            <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
+              Политика конфиденциальности
+            </a>
+            <a href="#" className="text-foreground text-sm font-normal leading-5 hover:underline">
+              Условия использования
             </a>
           </div>
         </div>

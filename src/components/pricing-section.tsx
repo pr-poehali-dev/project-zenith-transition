@@ -7,34 +7,34 @@ export function PricingSection() {
 
   const pricingPlans = [
     {
-      name: "Старт",
+      name: "Базовый",
       monthlyPrice: "0 ₽",
       annualPrice: "0 ₽",
-      description: "Для начинающих разработчиков.",
+      description: "Для частных клиентов.",
       features: [
-        "Подсказки кода в реальном времени",
-        "Базовые интеграции",
-        "Одно MCP-подключение",
-        "До 2 ИИ-агентов",
-        "Деплой с брендингом NeuralCode",
+        "До 3 активных заявок",
+        "Онлайн-отслеживание статуса",
+        "Чат с мастером",
+        "История заявок",
+        "Уведомления по SMS",
       ],
-      buttonText: "Начать",
+      buttonText: "Зарегистрироваться",
       buttonClass:
         "bg-zinc-300 shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] outline outline-0.5 outline-[#1e29391f] outline-offset-[-0.5px] text-gray-800 text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-zinc-400",
     },
     {
-      name: "Про",
-      monthlyPrice: "1 990 ₽",
-      annualPrice: "1 590 ₽",
-      description: "Для профессионалов.",
+      name: "Стандарт",
+      monthlyPrice: "590 ₽",
+      annualPrice: "490 ₽",
+      description: "Для активных пользователей.",
       features: [
-        "Расширенные превью в реальном времени",
-        "Безлимитные интеграции",
-        "Несколько MCP-подключений",
-        "До 10 ИИ-агентов одновременно",
-        "Командный чат и совместная работа",
-        "Продвинутая интеграция с Git",
-        "Приоритетная поддержка",
+        "Безлимитные заявки",
+        "Приоритетный выезд мастера",
+        "Фото и документы по заявкам",
+        "Несколько адресов",
+        "Гарантия на все работы",
+        "Персональный менеджер",
+        "Приоритетная поддержка 24/7",
       ],
       buttonText: "Подключить",
       buttonClass:
@@ -43,15 +43,15 @@ export function PricingSection() {
     },
     {
       name: "Бизнес",
-      monthlyPrice: "19 900 ₽",
-      annualPrice: "15 900 ₽",
-      description: "Решения для команд.",
+      monthlyPrice: "2 990 ₽",
+      annualPrice: "2 490 ₽",
+      description: "Для управляющих компаний.",
       features: [
-        "Персональный менеджер",
-        "Безлимитные MCP-кластеры",
-        "Безлимитные ИИ-агенты",
-        "Корпоративная безопасность",
-        "Приоритетный деплой и SLA",
+        "Управление объектами недвижимости",
+        "Безлимитные заявки",
+        "API-интеграция",
+        "Корпоративная отчётность",
+        "Выделенный менеджер и SLA",
       ],
       buttonText: "Связаться",
       buttonClass:
@@ -67,7 +67,7 @@ export function PricingSection() {
             Тарифы для каждого
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
-            Выберите план под ваш стиль работы: от начинающих разработчиков <br /> до растущих команд и крупных организаций.
+            Выберите план под свои задачи: от разовой заявки <br /> до управления целым жилым фондом.
           </p>
         </div>
         <div className="pt-4">
@@ -163,7 +163,7 @@ export function PricingSection() {
               >
                 <div className="px-1.5 flex justify-center items-center gap-2">
                   <span
-                    className={`text-center text-sm font-medium leading-tight ${plan.name === "Старт" ? "text-gray-800" : plan.name === "Про" ? "text-primary" : "text-zinc-950"}`}
+                    className={`text-center text-sm font-medium leading-tight ${plan.name === "Базовый" ? "text-gray-800" : plan.name === "Стандарт" ? "text-primary" : "text-zinc-950"}`}
                   >
                     {plan.buttonText}
                   </span>
@@ -174,7 +174,7 @@ export function PricingSection() {
               <div
                 className={`self-stretch text-sm font-medium leading-tight ${plan.popular ? "text-primary-foreground/70" : "text-muted-foreground"}`}
               >
-                {plan.name === "Старт" ? "Начните сегодня:" : "Всё из Старт плюс:"}
+                {plan.name === "Базовый" ? "Включено:" : "Всё из Базового плюс:"}
               </div>
               <div className="self-stretch flex flex-col justify-start items-start gap-3">
                 {plan.features.map((feature) => (

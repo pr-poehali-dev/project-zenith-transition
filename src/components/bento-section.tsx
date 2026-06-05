@@ -42,33 +42,33 @@ const BentoCard = ({ title, description, Component }: BentoCardProps) => (
 export function BentoSection() {
   const cards = [
     {
-      title: "ИИ-ревью кода.",
-      description: "Умные подсказки для чистого кода в реальном времени.",
+      title: "Онлайн-заявка.",
+      description: "Опишите проблему и выберите удобное время — без звонков и очередей.",
       Component: AiCodeReviews,
     },
     {
-      title: "Превью в реальном времени",
-      description: "Общайтесь, работайте вместе и сразу видьте изменения.",
+      title: "Статус в реальном времени",
+      description: "Следите за ходом ремонта прямо в личном кабинете.",
       Component: RealtimeCodingPreviews,
     },
     {
-      title: "Интеграции в один клик",
-      description: "Легко подключайте любимые инструменты разработки.",
+      title: "Проверенные мастера",
+      description: "Все специалисты проходят проверку и имеют рейтинг от клиентов.",
       Component: OneClickIntegrationsIllustration,
     },
     {
-      title: "Гибкое MCP-подключение",
-      description: "Простое управление доступом к MCP-серверам.",
+      title: "Фото и документы",
+      description: "Прикрепляйте фото поломки и получайте акты выполненных работ.",
       Component: MCPConnectivityIllustration,
     },
     {
-      title: "Параллельные ИИ-агенты",
-      description: "Решайте сложные задачи быстрее с несколькими агентами.",
+      title: "Несколько адресов",
+      description: "Управляйте заявками для квартиры, дачи и офиса в одном аккаунте.",
       Component: ParallelCodingAgents,
     },
     {
-      title: "Простой деплой",
-      description: "От кода до продакшена за считанные минуты.",
+      title: "Быстрый выезд",
+      description: "Мастер приедет в течение 2 часов после подтверждения заявки.",
       Component: EasyDeployment,
     },
   ]
@@ -80,10 +80,10 @@ export function BentoSection() {
         <div className="self-stretch py-8 md:py-14 flex flex-col justify-center items-center gap-2 z-10">
           <div className="flex flex-col justify-start items-center gap-4">
             <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
-              Усильте рабочий процесс с ИИ
+              Всё для вашего ремонта
             </h2>
             <p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
-              Попросите ИИ-агента помочь с совместной работой, интеграциями и аналитикой для оптимизации процессов.
+              Удобный сервис для подачи заявок, отслеживания статуса и общения с мастерами — всё в одном месте.
             </p>
           </div>
         </div>

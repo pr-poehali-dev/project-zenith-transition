@@ -438,16 +438,16 @@ export function HeroSection() {
 
       <div className="relative z-10 space-y-4 md:space-y-5 lg:space-y-6 mb-6 md:mb-7 lg:mb-9 max-w-md md:max-w-[500px] lg:max-w-[588px] mt-16 md:mt-[120px] lg:mt-[160px] px-4">
         <h1 className="text-foreground text-3xl md:text-4xl lg:text-6xl font-semibold leading-tight">
-          Раскройте мощь ИИ-агентов
+          Ремонт без лишних звонков
         </h1>
         <p className="text-muted-foreground text-base md:text-base lg:text-lg font-medium leading-relaxed max-w-lg mx-auto">
-          Ускорьте разработку с помощью интеллектуальных ИИ-агентов, которые пишут, проверяют и оптимизируют ваш код.
+          Зарегистрируйтесь и оставьте заявку на ремонт онлайн. Мастер приедет в удобное время — быстро, надёжно, без лишних хлопот.
         </p>
       </div>
 
       <a href="#">
         <Button className="relative z-10 bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-white/10">
-          Начать бесплатно
+          Оставить заявку
         </Button>
       </a>
     </section>

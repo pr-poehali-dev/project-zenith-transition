@@ -1,57 +1,57 @@
 const testimonials = [
   {
     quote:
-      "Подсказки NeuralCode в реальном времени - это как иметь сеньор-разработчика, который проверяет каждую строку кода. Точность рекомендаций повысила качество кода и сократила время на ревью.",
+      "Оставила заявку в воскресенье вечером — мастер приехал в понедельник утром. Всё починили быстро, цена совпала с оценкой. Очень удобно, что видно статус прямо в личном кабинете!",
     name: "Анна Петрова",
-    company: "TechFlow Solutions",
+    company: "Клиент, Москва",
     avatar: "/images/avatars/annette-black.png",
     type: "large-teal",
   },
   {
     quote:
-      "Интеграция NeuralCode прошла гладко, а MCP-подключения сэкономили нам дни работы над конфигурацией.",
+      "Наконец-то сервис, где не нужно звонить по десяти номерам. Подала заявку, выбрала время — мастер пришёл вовремя.",
     name: "Елена Смирнова",
-    company: "Quantum Dynamics",
+    company: "Клиент, Санкт-Петербург",
     avatar: "/images/avatars/dianne-russell.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мульти-агентная функция NeuralCode изменила всё. Теперь мы исправляем сложные баги за часы, а не за целые спринты.",
+      "Управляю несколькими квартирами. Теперь все заявки на ремонт веду в одном месте — экономит кучу времени.",
     name: "Максим Волков",
-    company: "Alpine Ventures",
+    company: "Арендодатель, Казань",
     avatar: "/images/avatars/cameron-williamson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Больше никакого жонглирования инструментами. NeuralCode объединил все интеграции в одном месте и упростил весь рабочий процесс.",
+      "Приложил фото трубы в заявке — мастер приехал уже с нужными деталями. Не пришлось ждать второго визита.",
     name: "Дмитрий Козлов",
-    company: "Stellar Analytics",
+    company: "Клиент, Екатеринбург",
     avatar: "/images/avatars/robert-fox.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мы начали с бесплатного плана, но через неделю перешли на Про. Теперь не представляем работу без него.",
+      "Начала с бесплатного тарифа, потом перешла на Стандарт. Приоритетный выезд — это реально работает!",
     name: "Ольга Новикова",
-    company: "Nova Industries",
+    company: "Клиент, Новосибирск",
     avatar: "/images/avatars/darlene-robertson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Совместная работа стала лёгкой. С превью NeuralCode в реальном времени парное программирование стало быстрее и продуктивнее.",
+      "Чат с мастером прямо в сервисе — очень удобно. Сразу договорились о деталях, без лишних звонков.",
     name: "Игорь Соколов",
-    company: "CloudBridge Tech",
+    company: "Клиент, Краснодар",
     avatar: "/images/avatars/cody-fisher.png",
     type: "small-dark",
   },
   {
     quote:
-      "Деплой с NeuralCode - это не просто, это бесшовно. От кода до продакшена за минуты без головной боли с пайплайнами.",
-    name: "Мария Федорова",
-    company: "Nexus Software",
+      "Использую РемонтПро для управления жилым фондом. Отчёты, история работ, SLA — всё что нужно для бизнеса в одном сервисе.",
+    name: "Мария Фёдорова",
+    company: "УК «Комфорт», Москва",
     avatar: "/images/avatars/albert-flores.png",
     type: "large-light",
   },
@@ -139,11 +139,11 @@ export function TestimonialGridSection() {
       <div className="self-stretch py-6 md:py-8 lg:py-14 flex flex-col justify-center items-center gap-2">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-3xl md:text-4xl lg:text-[40px] font-semibold leading-tight md:leading-tight lg:leading-[40px]">
-            Разработка без усилий
+            Клиенты уже доверяют нам
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm md:text-sm lg:text-base font-medium leading-[18.20px] md:leading-relaxed lg:leading-relaxed">
-            {"Узнайте, как разработчики быстрее выпускают продукты, работают слаженно"} <br />{" "}
-            {"и создают код уверенно с помощью мощных ИИ-инструментов NeuralCode"}
+            {"Тысячи довольных клиентов по всей России уже оценили"} <br />{" "}
+            {"удобство онлайн-заявок и профессионализм наших мастеров"}
           </p>
         </div>
       </div>
